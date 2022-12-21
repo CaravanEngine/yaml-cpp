@@ -18,6 +18,11 @@ project "yaml-cpp"
 		"include"
 	}
 
+	defines
+	{
+		"yaml_cpp_EXPORTS"
+	}
+
 	filter "system:windows"
 		systemversion "latest"
 		cppdialect "C++17"
